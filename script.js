@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
 	var AliPayQR	=	'images/AliPayQR.png';
 	var WeChatQR	=	'images/WeChatQR.png';
 	// PayPal 账户建议使用 Unicode
-	var ppbusiness	=	"\u0073\u0065\u0061\u006c\u006f\u0075\u0072\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d";
+	var ppbusiness	=	"\u004c\u0044\u0059\u004a\u0059\u0045\u0054\u0056\u0033\u004a\u0059\u004b\u0057";
 
 	if (!ppitem_name) { ppitem_name	=	"Donate"; }
 
@@ -18,7 +18,7 @@ jQuery(document).ready(function() {
 		var tempForm	=	document.createElement("form");
 		tempForm.id	=	"paypal";
 		tempForm.method	=	"post";
-		tempForm.action	=	"paypal.me/hoseahsu";
+		tempForm.action	=	"https://www.paypal.com/cgi-bin/webscr";
 		tempForm.target	=	"paypal";
 
 		var cmd	=	document.createElement("input");
@@ -73,7 +73,7 @@ jQuery(document).ready(function() {
 		var tempForm	=	document.createElement("form");
 		tempForm.id	=	"paypal";
 		tempForm.method	=	"post";
-		tempForm.action	=	"paypal.me/hoseahsu";
+		tempForm.action	=	"https://www.paypal.com/cgi-bin/webscr";
 		tempForm.target	=	"paypal";
 
 		var cmd	=	document.createElement("input");
