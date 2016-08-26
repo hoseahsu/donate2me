@@ -73,7 +73,7 @@ jQuery(document).ready(function() {
 		var tempForm	=	document.createElement("form");
 		tempForm.id	=	"paypal";
 		tempForm.method	=	"post";
-		tempForm.action	=	"https://www.paypal.com/cgi-bin/webscr";
+		tempForm.action	=	"paypal.me/hoseahsu";
 		tempForm.target	=	"paypal";
 
 		var cmd	=	document.createElement("input");
