@@ -1,6 +1,4 @@
-# Donate-Page simple
-
-![Donate-Page](https://i.imgur.com/yNz5vJc.gif)
+# [Donate-Page simple](http://hosea.xyz/donate2me)
 
 #### 直接 Fork 之后需要修改以下内容为你的账户
 
