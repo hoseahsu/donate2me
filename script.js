@@ -2,7 +2,7 @@ jQuery(document).ready(function() {
 	var QRBox	=	$('#QRBox');
 	var MainBox	=	$('#MainBox');
 	var BTCQR	=	'images/BTCQR.png';	// 二维码路径
-	var AliPayQR	=	'images/alipay.jpg';
+	var AliPayQR	=	'images/AliPayQR.png';
 	var WeChatQR	=	'images/WeChatQR.png';
 	// PayPal 账户建议使用 Unicode
 	var ppbusiness	=	"\u004c\u0044\u0059\u004a\u0059\u0045\u0054\u0056\u0033\u004a\u0059\u004b\u0057";
